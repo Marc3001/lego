@@ -1,0 +1,38 @@
+[
+    {
+        "uuid_ref": "f825a076-2c4c-4502-898c-a133ab5378be",
+        "name": "notActiveVersion001",
+        "creation_date": "2021-01-02T00:45:20+01:00",
+        "domain": {
+            "$ref": "\/api\/v1\/domain\/test.com"
+        },
+        "zone": {
+            "$ref": "\/api\/v1\/domain\/test.com\/version\/f825a076-2c4c-4502-898c-a133ab5378be\/zone"
+        },
+        "active": false
+    },
+    {
+        "uuid_ref": "c4358494-5399-485e-b596-ad9c1d53e175",
+        "name": "activeVersion001",
+        "creation_date": "2021-12-07T02:22:24+01:00",
+        "domain": {
+            "$ref": "\/api\/v1\/domain\/test.com"
+        },
+        "zone": {
+            "$ref": "\/api\/v1\/domain\/test.com\/version\/c4358494-5399-485e-b596-ad9c1d53e175\/zone"
+        },
+        "active": true
+    },
+    {
+        "uuid_ref": "da9abd8a-67f7-4b21-96d6-7e3ca909229a",
+        "name": "notActiveVersion002",
+        "creation_date": "2021-12-07T02:22:24+01:00",
+        "domain": {
+            "$ref": "\/api\/v1\/domain\/test.com"
+        },
+        "zone": {
+            "$ref": "\/api\/v1\/domain\/test.com\/version\/da9abd8a-67f7-4b21-96d6-7e3ca909229a\/zone"
+        },
+        "active": false
+    }
+]

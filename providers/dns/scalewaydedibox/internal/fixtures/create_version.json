@@ -1,0 +1,12 @@
+{
+    "uuid_ref": "313dbb10-75b9-4401-9fdb-d9149e5611eb",
+    "name": "lego_tmp",
+    "creation_date": "2021-01-02T00:45:20+01:00",
+    "domain": {
+        "$ref": "\/api\/v1\/domain\/test.com"
+    },
+    "zone": {
+        "$ref": "\/api\/v1\/domain\/test.com\/version\/313dbb10-75b9-4401-9fdb-d9149e5611eb\/zone"
+    },
+    "active": false
+}

@@ -1,0 +1,97 @@
+[
+    {
+        "id": 12915629,
+        "name": "test01",
+        "data": "target01.test.com",
+        "type": "CNAME",
+        "ttl": 14400,
+        "domain": {
+            "id": 152276,
+            "name": "test.com",
+            "dnssec": false,
+            "external": false,
+            "versions": {
+                "$ref": "/api/v1/domain/test.com/version"
+            },
+            "zone": {
+                "$ref": "/api/v1/domain/test.com/zone"
+            }
+        }
+    },
+    {
+        "id": 12915630,
+        "name": "test02",
+        "data": "target02.test.com.",
+        "type": "CNAME",
+        "ttl": 14400,
+        "domain": {
+            "id": 152276,
+            "name": "test.com",
+            "dnssec": false,
+            "external": false,
+            "versions": {
+                "$ref": "/api/v1/domain/test.com/version"
+            },
+            "zone": {
+                "$ref": "/api/v1/domain/test.com/zone"
+            }
+        }
+    },
+    {
+        "id": 12915631,
+        "name": "test03",
+        "data": "value03",
+        "type": "TXT",
+        "ttl": 14400,
+        "domain": {
+            "id": 152276,
+            "name": "test.com",
+            "dnssec": false,
+            "external": false,
+            "versions": {
+                "$ref": "/api/v1/domain/test.com/version"
+            },
+            "zone": {
+                "$ref": "/api/v1/domain/test.com/zone"
+            }
+        }
+    },
+    {
+        "id": 12915632,
+        "name": "test04",
+        "data": "127.0.0.1",
+        "type": "A",
+        "ttl": 86400,
+        "domain": {
+            "id": 152276,
+            "name": "test.com",
+            "dnssec": false,
+            "external": false,
+            "versions": {
+                "$ref": "/api/v1/domain/test.com/version"
+            },
+            "zone": {
+                "$ref": "/api/v1/domain/test.com/zone"
+            }
+        }
+    },
+    {
+        "id": 12915633,
+        "name": "lego",
+        "data": "active_version:thisone",
+        "type": "TXT",
+        "ttl": 14400,
+        "domain": {
+            "id": 152276,
+            "name": "test.com",
+            "dnssec": false,
+            "external": false,
+            "versions": {
+                "$ref": "/api/v1/domain/test.com/version"
+            },
+            "zone": {
+                "$ref": "/api/v1/domain/test.com/zone"
+            }
+        }
+    }
+]

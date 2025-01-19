@@ -1,0 +1,22 @@
+Name = "Scaleway Dedibox"
+Description = '''Scaleway Dedibox (previously online.net) dns provider'''
+URL = "https://scaleway.com/"
+Code = "scalewaydedibox"
+Since = "v4.22.0"
+
+Example = '''
+SCALEWAYDEDIBOX_API_TOKEN=xxxxxx \
+lego --email you@example.com --dns scalewaydedibox -d '*.example.com' -d example.com run
+'''
+
+[Configuration]
+  [Configuration.Credentials]
+    SCALEWAYDEDIBOX_API_TOKEN = "The API token"
+  [Configuration.Additional]
+    SCALEWAYDEDIBOX_POLLING_INTERVAL = "Time between DNS propagation check"
+    SCALEWAYDEDIBOX_PROPAGATION_TIMEOUT = "Maximum waiting time for DNS propagation"
+    SCALEWAYDEDIBOX_TTL = "The TTL of the TXT record used for the DNS challenge"
+    SCALEWAYDEDIBOX_HTTP_TIMEOUT = "API request timeout"
+
+[Links]
+  API = "https://console.online.net/en/api/"

@@ -1,0 +1,19 @@
+{
+    "id": 17749490,
+    "name": "test",
+    "data": "test_value",
+    "type": "TXT",
+    "ttl": 300,
+    "domain": {
+        "id": 152276,
+        "name": "test.com",
+        "dnssec": false,
+        "external": false,
+        "versions": {
+            "$ref": "\/api\/v1\/domain\/test.com\/version"
+        },
+        "zone": {
+            "$ref": "\/api\/v1\/domain\/test.com\/zone"
+        }
+    }
+}
